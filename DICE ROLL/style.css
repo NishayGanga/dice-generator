@@ -1,0 +1,38 @@
+html, body{
+    margin:0;
+    min-height: 100vh;
+    padding: 0;
+    font-family: "Noto Serif Lao", monospace, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container-fluid{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(#212325, #0D1821);
+}
+
+form{
+    background-color: #212325;
+    display: flex;
+    flex-direction: column ;
+    height: 250px;
+    color: white;
+}
+
+h2{
+    margin-top: 0;
+    margin-bottom:30px;
+}
+
+.input-box{
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+#output{
+    width: 100%;
+}
